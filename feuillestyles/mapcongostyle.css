@@ -1,0 +1,140 @@
+﻿
+/*! Code css du corps de la page d'index*/		
+body 
+{ 
+	background:#ffffff;
+} 
+/*! fin du code du corps (body)*/
+
+/*! famille de caractère sur tous le site web.*/
+html, body
+{ 
+	font-family: Andalus,segoe UI,Verdana, Arial, Helvetica, sans-serif;
+}
+
+/*! Code Css du bloc d'entête de la page contenant le logo type avec le liens de retour vers l'index (page d'acceuil)*/	  
+header
+{
+	max-width:1024px;
+	min-width:300px;
+	background-color:#ffffff;
+	background-image:url(ban.jpg);
+	height:100px;
+	margin:auto;
+} 	
+header img 
+{
+	border:none;
+}
+/*! fin du code de l'entête*/	
+nav
+{
+	height:50px;
+	width:80%;
+	margin:auto;
+	background-color:#88abd9;
+	background:-webkit-linear-gradient(#278bd6,#177cc8);
+	background:-moz-linear-gradient(#278bd6,#177cc8);
+	background:-ms-linear-gradient(#278bd6,#177cc8);
+	background:-o-linear-gradient(#278bd6,#177cc8);
+	background:linear-gradient(#278bd6,#177cc8);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#278bd6',endColorstr='#177cc8', GradientType=0);
+	z-index:300;
+	box-shadow: 0px 1.75px 1.75px 0px black;
+	text-shadow: 0px 0.5px 0 rgba(0,0,0,.3);	
+	color:#333333;
+	z-index:300;
+	box-shadow: 0px 1.75px 1.75px 0px black;
+	filter: progid:DXImageTransform.Microsoft.dropShadow(color=#561A0B, offX=-6, offY=-6, positive=true);
+	text-shadow: 0px 0.5px 0 rgba(0,0,0,.3);	
+	color:#333333;
+}
+.indiv0
+{
+	width:70px;
+	float:left;
+	display:inline-block;
+	margin:auto;
+}
+#text
+{
+	margin:auto;
+	margin-left:15%;
+}
+section
+{
+	margin:auto;
+	display:inline-block;
+	margin-left:150px;
+	border-top:#cccdce solid 1px;
+	padding:2px;
+}
+.indiv
+{
+	display:inline-block;
+	margin:auto;
+}
+.indiv p img:hover
+{
+	width:230;
+	height:190;
+	border: red solid 1px;
+}
+
+#menu ul
+{
+	list-style-type:none;
+	line-height:50px;
+	margin-left:20px;
+	font-size:14px;
+}
+#menu a
+{
+	text-decoration:none;
+	color:#fff;
+	font-size:18px;
+	display:block;
+	float:left;
+	padding-left:18px;
+	padding-right:18px;
+	border-right:1px #257096 solid;
+	border-left:1px #257096 solid;
+}
+
+#menu li a:hover
+{
+	text-decoration:none;
+	color:#fff;
+	background:#fa1a15;
+}
+#geolocalisation	
+{
+	width:1024px;
+	height:400px;
+	text-align:center;
+	margin:auto;
+	margin-top:40px;
+	margin-bottom:40px;
+}
+footer 
+{
+	max-width:1024px;
+	min-width:300px;
+	height:30px;
+	text-align:center;
+	margin:auto;
+	border-top:solid #cccdce 1px;
+} 
+footer p 
+{
+	font-family:arial;
+	font-size:12px;
+	color:#7a7c7d;
+} 
+footer p a
+{
+	color:#fa1a15;
+	text-decoration:none;
+}		  
+
+
